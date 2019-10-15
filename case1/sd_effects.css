@@ -23,22 +23,19 @@ html{
 /* Body Styles */
 body{
    background-image: url(sd_back2.png),
-   radial-gradient(circle closest-corner at 40% 70%, white , rgb(151,151,151)),
-   radial-gradient(circle closest-corner at 80% 40%, white, rgb(0,0,0,0)),
-   radial-gradient(closest-side at 10% 20%, white, rgb(0,0,0,0)),
-   radial-gradient(at 90% 10%, rgba(0,0,0,0));
+         radial-gradient(circle closest-corner at 40% 70%, white 15% , rgba(151,151,151, 0.5) 50%),
+         radial-gradient(circle closest-corner at 80% 40%, white 15%, rgba(0,0,0,0) 30%),
+         radial-gradient(closest-side at 10% 20%, white 20%, rgba(0,0,0,0) 45%),
+         radial-gradient(5% 5% at 90% 10%,white 15%, rgba(0,0,0,0) 40%);
    background-color: rgb(151,151,151); 
-   box-shadow: rgb(31, 31, 31) 30px 0px 45px;
-   box-shadow: rgb(31, 31, 31) -30px 0px 45px;
+   box-shadow: rgb(31, 31, 31) 30px 0px 45px,
+   rgb(31, 31, 31) -30px 0px 45px;
 }
 /*comment*/
 /* Navigation List Styles */
-body > header{
-   border-width: 5px;
-   border-color: rgb(211, 211, 255);
+body > header > nav a{
+   border: outset 5px rgb(211, 211, 255);
 }
-
-
 /*comment*/
 /* Section Left Styles */
 h1 header{
