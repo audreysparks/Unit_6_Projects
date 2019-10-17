@@ -55,7 +55,7 @@ blockquote{
    background-image: url(srf_speech.png); 
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   -webkit-filter: drop-shadow(5px 5px 10px) rgb(51, 51,51));
+   -webkit: drop-shadow(5px 5px 10px) rgb(51, 51,51));
    filter: (5px 5px 10px) rgb(51, 51,51));
    
 }
